@@ -1,0 +1,84 @@
+{
+  "cidades": [
+    {
+      "id": 1,
+      "nome": "São Paulo",
+      "uf": "SP",
+      "estado": "São Paulo",
+      "populacao": 42000000,
+      "regiao": "Sudeste"
+    },
+    {
+      "id": 2,
+      "nome": "Curitiba",
+      "uf": "PR",
+      "estado": "Parana",
+      "populacao": 12000000,
+      "regiao": "Sul"
+    },
+    {
+      "id": 3,
+      "nome": "Brasilia",
+      "uf": "DF",
+      "estado": "Distrito Federal",
+      "populacao": 2000000,
+      "regiao": "Centro-Oeste"
+    },
+    {
+      "id": 4,
+      "nome": "Salvador",
+      "uf": "BA",
+      "estado": "Bahia",
+      "populacao": 3000000,
+      "regiao": "Nordeste"
+    },
+    {
+      "id": 5,
+      "nome": "Fortaleza",
+      "uf": "CE",
+      "estado": "Ceara",
+      "populacao": 4000000,
+      "regiao": "Nordeste"
+    },
+    {
+      "id": 6,
+      "nome": "Manaus",
+      "uf": "AM",
+      "estado": "Amazonas",
+      "populacao": 5000000,
+      "regiao": "Norte"
+    },
+    {
+      "id": 7,
+      "nome": "Vitoria",
+      "uf": "ES",
+      "estado": "Espírito Santo",
+      "populacao": 6000000,
+      "regiao": "Sudeste"
+    },
+    {
+      "id": 8,
+      "nome": "Goiania",
+      "uf": "GO",
+      "estado": "Goiás",
+      "populacao": 7000000,
+      "regiao": "Centro-Oeste"
+    },
+    {
+      "id": 9,
+      "nome": "Porto Alegre",
+      "uf": "RS",
+      "estado": "Rio Grande do Sul",
+      "populacao": 8000000,
+      "regiao": "Sul"
+    },
+    {
+      "id": 10,
+      "nome": "Recife",
+      "uf": "PE",
+      "estado": "Pernambuco",
+      "populacao": 9000000,
+      "regiao": "Nordeste"
+    }
+  ]
+}

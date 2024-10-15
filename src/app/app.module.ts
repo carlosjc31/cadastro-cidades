@@ -7,6 +7,7 @@ import { HomeComponent } from "./home/home.component";
 import { BrowserModule } from "@angular/platform-browser";
 import { HttpClientModule } from "@angular/common/http";
 import { ReactiveFormsModule } from "@angular/forms";
+import { AppRoutingModule } from "./app.routing.module";
 
 @NgModule({
   declarations: [

@@ -1,1 +1,25 @@
-<p>tabela-cidades works!</p>
+<div class="container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Estado</th>
+        <th scope="col">Sigla</th>
+        <th scope="col">População</th>
+        <th scope="col">Região</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cidade of cidades">
+        <th scope="row">{{cidade.id}}</th>
+        <td scope="row"><a [routerLink]="['/cidade', cidade.id]">{{cidade.nome}}</a></td>
+        <td scope="row">{{cidade.estado}}</td>
+        <td scope="row">{{cidade.sigla}}</td>
+        <td scope="row">{{cidade.populacao}}</td>
+        <td scope="row">{{cidade.regiao}}</td>
+        <td><button type="button" class="btn btn-danger" (click)="delete(cidade)">Apagar</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
