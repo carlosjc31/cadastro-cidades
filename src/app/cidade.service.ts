@@ -7,6 +7,12 @@ import { cidade } from "./cidades";
   providedIn: 'root'
 })
 export class cidadesService {
+  save(value: any) {
+    throw new Error('Method not implemented.');
+  }
+  update(value: any) {
+    throw new Error('Method not implemented.');
+  }
 
   url = 'http://localhost:3000/cidades';
 

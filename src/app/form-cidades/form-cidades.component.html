@@ -1,1 +1,54 @@
-<p>form-cidades works!</p>
+<div class="container">
+  <form formGroup="formGroup">
+    <div class="mb-3">
+      <label for="nome" class="form-label">Nome</label>
+      <input  form="nome"
+              type="text"
+              class="form-control"
+              id="nome"
+              placeholder="Digite o nome da Cidade">
+    </div>
+    <div class="mb-3">
+      <label for="estado" class="form-label">Estado</label>
+      <input  form="estado"
+              type="text"
+              class="form-control"
+              id="estado"
+              placeholder="Digite o estado da Cidade">
+    </div>
+    <div class="mb-3">
+      <label type="sigla" class="form-label">Sigla</label>
+      <input  form="sigla"
+              type="text"
+              class="form-control"
+              id="sigla"
+              placeholder="Digite a sigla do estado">
+    </div>
+    <div class="mb-3">
+      <label type="populacao" class="form-label">População</label>
+      <input  form="populacao"
+              type="text"
+              class="form-control"
+              id="populacao"
+              placeholder="Digite a população da Cidade">
+    </div>
+    <div class="mb-3">
+      <label type="regiao" class="form-label">Região</label>
+      <input  form="regiao"
+              type="text"
+              class="form-control"
+              id="populacao"
+              placeholder="Digite a região">
+    </div>
+
+    <button *ngIf="isEditing"
+             type="button"
+             class="btn btn-primary" (click)="update()"
+             >Atualizar</button>
+
+    <button *ngIf="!isEditing"
+             type="button"
+             class="btn btn-primary" (click)="save()"
+             >Salvar</button>
+  </form>
+</div>
